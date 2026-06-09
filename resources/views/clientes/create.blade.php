@@ -1,5 +1,4 @@
-<h1>Create cliente</h1>
+    <form action="{{ route('clientes.store') }}" method="POST">
+        @include('clientes._form', ['buttonText' => 'Salvar cliente'])
+    </form>
 
-<form action="">
-    <h2>Crie o cliente aqui</h2>
-</form>
