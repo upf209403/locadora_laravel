@@ -24,6 +24,10 @@
                     <flux:sidebar.item icon="archive-box" :href="route('produtos.index')" :current="request()->routeIs('produtos.*')" wire:navigate>
                         {{ __('Produtos') }}
                     </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="arrow-path" :href="route('locacoes.index')" :current="request()->routeIs('locacoes.*')" wire:navigate>
+                        {{ __('Locações') }}
+                    </flux:sidebar.item>
                 </flux:sidebar.group>
             </flux:sidebar.nav>
 

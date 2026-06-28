@@ -26,7 +26,7 @@
                             <th class="px-4 py-3">CPF</th>
                             <th class="px-4 py-3">Nascimento</th>
                             <th class="px-4 py-3">Situacao</th>
-                            <th class="px-4 py-3 text-right">Acoes</th>
+                            <th class="px-4 py-3 text-right">Ações</th>
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-zinc-200 bg-white dark:divide-zinc-700 dark:bg-zinc-800">
